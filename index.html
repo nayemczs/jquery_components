@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <!--CSS-->
+
+    <title>Jquery</title>
+</head>
+
+<body>
+    
+
+    <p id="demo">hello</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click</button>
+    <h2>JavaScript</h2>
+
+    <p id="js1"></p>
+    <h2>Hello</h2>
+    <p>My webpage</p>
+
+    <p id="js1"></p>
+    <h2>Jquery Statements</h2>
+
+    <p>A <b>Jquery</b> is a font end laguage</p>
+    <p id="js2"></p>
+    <p>it is easy to to use a calculation</p>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p>x = 15, y = 12, calculate z = x - y, and display z:</p>
+
+    <p id="demo5"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+
+<p id="demo6"></p>
+   <p>this function calculate the values and return them as result</p>
+
+<p id="demo9"></p>
+   <p></p>
+<p id="demo10"></p>
+    <!--------------------------------->
+    <script>
+        document.getElementById("demo").innerHTML = "My First JavaScript";
+        document.getElementById("js1").innerHTML = 0 + 6;
+        var x, y, z; 
+        x = 8; 
+        y = 6; 
+        z = x - y;
+
+        document.getElementById("js2").innerHTML =
+            "The value of z is " + z + ".";
+        var a, b, c;
+        a = 12;
+        b = 4;
+        c = a - b;
+        document.getElementById("demo1").innerHTML = c;
+
+        document.getElementById("demo2").innerHTML = 199.59;
+        document.getElementById("demo3").innerHTML = 'cr7 cr7';
+ 
+        var x = 5;
+        var y = 5;
+        var z = x + y;
+        document.getElementById("demo4").innerHTML =
+            "The value of z is: " + z;
+        var x = 5;
+        var y = 2;
+        var z = x * y;
+        document.getElementById("demo5").innerHTML = z;
+        var x = 5;
+var y = 2;
+var z = x * y;
+document.getElementById("demo6").innerHTML = z;
+        
+        var x = 11;
+x += 5;
+document.getElementById("demo7").innerHTML = x;
+        
+        var x = 16 + "Volvo";
+document.getElementById("demo8").innerHTML = x;
+        
+        var x = myFunction(7, 8);
+document.getElementById("demo9").innerHTML = x;
+
+function myFunction(a, b) {
+    return a * b;
+}
+
+document.getElementById("demo10").innerHTML = toCelsius;
+
+    </script>
+    <!-------------------------------->
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
